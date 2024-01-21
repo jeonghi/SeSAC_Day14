@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B1EB794F-6CA9-48E5-A541-4B85DF623D18"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6EDF61FF-8708-442B-BD27-ED9CFABEE886"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TravelTalk/Feature/ChatDetail/Controller/ChatDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6EDF61FF-8708-442B-BD27-ED9CFABEE886 - bf354efb81b5bd4b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TravelTalk.ChatDetailViewController.scrollTableViewToLast() -&gt; ()"
+                  moduleName = "TravelTalk"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jeonghi/XcodeProjects/SeSAC_%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A6/week3/TravelTalk/TravelTalk/Feature/ChatDetail/Controller/ChatDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "868">
+               </Location>
+               <Location
+                  uuid = "6EDF61FF-8708-442B-BD27-ED9CFABEE886 - c9a92e5bea07e0a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TravelTalk.ChatDetailViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "TravelTalk"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jeonghi/XcodeProjects/SeSAC_%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A6/week3/TravelTalk/TravelTalk/Feature/ChatDetail/Controller/ChatDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "284">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

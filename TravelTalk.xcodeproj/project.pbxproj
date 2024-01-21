@@ -7,15 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B4D1F792B54B1F1004C7619 /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4D1F782B54B1F1004C7619 /* UserDefaultManager.swift */; };
+		5B4D1F7B2B54B20B004C7619 /* UserDefaultWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4D1F7A2B54B20B004C7619 /* UserDefaultWrapper.swift */; };
+		5B6CA66B2B53FFA10095C28A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6CA66A2B53FFA10095C28A /* User.swift */; };
+		5B6CA66D2B53FFB40095C28A /* ChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6CA66C2B53FFB40095C28A /* ChatRoom.swift */; };
+		5B6CA66F2B53FFC20095C28A /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6CA66E2B53FFC20095C28A /* Chat.swift */; };
+		5B6CA6762B5400900095C28A /* MockChatData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6CA6752B5400900095C28A /* MockChatData.swift */; };
+		5B6CA67B2B540B420095C28A /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6CA67A2B540B420095C28A /* ChatListViewController.swift */; };
+		5B6CA67D2B540B5E0095C28A /* ChatDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6CA67C2B540B5E0095C28A /* ChatDetailViewController.swift */; };
+		5B6CA6842B540BB20095C28A /* OtherChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6CA6822B540BB20095C28A /* OtherChatMessageCell.swift */; };
+		5B6CA6852B540BB20095C28A /* OtherChatMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B6CA6832B540BB20095C28A /* OtherChatMessageCell.xib */; };
+		5B6CA6882B540BC70095C28A /* MeChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6CA6862B540BC70095C28A /* MeChatMessageCell.swift */; };
+		5B6CA6892B540BC70095C28A /* MeChatMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B6CA6872B540BC70095C28A /* MeChatMessageCell.xib */; };
+		5B6CA68B2B540C2D0095C28A /* ChatDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B6CA68A2B540C2D0095C28A /* ChatDetailViewController.storyboard */; };
+		5B6CA68D2B540C4C0095C28A /* ChatListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B6CA68C2B540C4C0095C28A /* ChatListViewController.storyboard */; };
+		5B6CA69B2B5417690095C28A /* ChatRoomListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6CA6992B5417690095C28A /* ChatRoomListCell.swift */; };
+		5B6CA69C2B5417690095C28A /* ChatRoomListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B6CA69A2B5417690095C28A /* ChatRoomListCell.xib */; };
+		5BC434E22B5BA26800A20B4D /* CellBaseConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC434E12B5BA26800A20B4D /* CellBaseConfiguration.swift */; };
+		5BC434E42B5BA97900A20B4D /* String+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC434E32B5BA97900A20B4D /* String+extension.swift */; };
+		5BC434E62B5BAE2F00A20B4D /* VCBaseConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC434E52B5BAE2F00A20B4D /* VCBaseConfiguration.swift */; };
 		5BEAF3AA2B538EFF00C8BB6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEAF3A92B538EFF00C8BB6F /* AppDelegate.swift */; };
 		5BEAF3AC2B538EFF00C8BB6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEAF3AB2B538EFF00C8BB6F /* SceneDelegate.swift */; };
 		5BEAF3AE2B538EFF00C8BB6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEAF3AD2B538EFF00C8BB6F /* ViewController.swift */; };
 		5BEAF3B12B538EFF00C8BB6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BEAF3AF2B538EFF00C8BB6F /* Main.storyboard */; };
 		5BEAF3B32B538F0000C8BB6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BEAF3B22B538F0000C8BB6F /* Assets.xcassets */; };
 		5BEAF3B62B538F0000C8BB6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BEAF3B42B538F0000C8BB6F /* LaunchScreen.storyboard */; };
+		5BEAF3BF2B53B21600C8BB6F /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 5BEAF3BE2B53B21600C8BB6F /* Kingfisher */; };
+		5BEAF3C52B53B27E00C8BB6F /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEAF3C42B53B27E00C8BB6F /* Date+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B4D1F782B54B1F1004C7619 /* UserDefaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
+		5B4D1F7A2B54B20B004C7619 /* UserDefaultWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultWrapper.swift; sourceTree = "<group>"; };
+		5B6CA66A2B53FFA10095C28A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5B6CA66C2B53FFB40095C28A /* ChatRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoom.swift; sourceTree = "<group>"; };
+		5B6CA66E2B53FFC20095C28A /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		5B6CA6752B5400900095C28A /* MockChatData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockChatData.swift; sourceTree = "<group>"; };
+		5B6CA67A2B540B420095C28A /* ChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
+		5B6CA67C2B540B5E0095C28A /* ChatDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDetailViewController.swift; sourceTree = "<group>"; };
+		5B6CA6822B540BB20095C28A /* OtherChatMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherChatMessageCell.swift; sourceTree = "<group>"; };
+		5B6CA6832B540BB20095C28A /* OtherChatMessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OtherChatMessageCell.xib; sourceTree = "<group>"; };
+		5B6CA6862B540BC70095C28A /* MeChatMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeChatMessageCell.swift; sourceTree = "<group>"; };
+		5B6CA6872B540BC70095C28A /* MeChatMessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeChatMessageCell.xib; sourceTree = "<group>"; };
+		5B6CA68A2B540C2D0095C28A /* ChatDetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChatDetailViewController.storyboard; sourceTree = "<group>"; };
+		5B6CA68C2B540C4C0095C28A /* ChatListViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChatListViewController.storyboard; sourceTree = "<group>"; };
+		5B6CA6992B5417690095C28A /* ChatRoomListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomListCell.swift; sourceTree = "<group>"; };
+		5B6CA69A2B5417690095C28A /* ChatRoomListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatRoomListCell.xib; sourceTree = "<group>"; };
+		5BC434E12B5BA26800A20B4D /* CellBaseConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellBaseConfiguration.swift; sourceTree = "<group>"; };
+		5BC434E32B5BA97900A20B4D /* String+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+extension.swift"; sourceTree = "<group>"; };
+		5BC434E52B5BAE2F00A20B4D /* VCBaseConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCBaseConfiguration.swift; sourceTree = "<group>"; };
 		5BEAF3A62B538EFF00C8BB6F /* TravelTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BEAF3A92B538EFF00C8BB6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BEAF3AB2B538EFF00C8BB6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +64,7 @@
 		5BEAF3B22B538F0000C8BB6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BEAF3B52B538F0000C8BB6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BEAF3B72B538F0000C8BB6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BEAF3C42B53B27E00C8BB6F /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +72,136 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BEAF3BF2B53B21600C8BB6F /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B4D1F772B54B1E1004C7619 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				5B4D1F782B54B1F1004C7619 /* UserDefaultManager.swift */,
+				5B4D1F7A2B54B20B004C7619 /* UserDefaultWrapper.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		5B6CA6712B5400430095C28A /* Drivers */ = {
+			isa = PBXGroup;
+			children = (
+				5B6CA6742B5400610095C28A /* DataGeneration */,
+			);
+			path = Drivers;
+			sourceTree = "<group>";
+		};
+		5B6CA6742B5400610095C28A /* DataGeneration */ = {
+			isa = PBXGroup;
+			children = (
+				5B6CA6752B5400900095C28A /* MockChatData.swift */,
+			);
+			path = DataGeneration;
+			sourceTree = "<group>";
+		};
+		5B6CA68E2B540D840095C28A /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				5B6CA6932B540DC40095C28A /* Common */,
+				5B6CA6902B540DAA0095C28A /* ChatDetail */,
+				5B6CA68F2B540D900095C28A /* ChatList */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		5B6CA68F2B540D900095C28A /* ChatList */ = {
+			isa = PBXGroup;
+			children = (
+				5B6CA6922B540DBD0095C28A /* View */,
+				5B6CA6912B540DB60095C28A /* Controller */,
+			);
+			path = ChatList;
+			sourceTree = "<group>";
+		};
+		5B6CA6902B540DAA0095C28A /* ChatDetail */ = {
+			isa = PBXGroup;
+			children = (
+				5B6CA6962B540E370095C28A /* View */,
+				5B6CA6952B540DF70095C28A /* Controller */,
+			);
+			path = ChatDetail;
+			sourceTree = "<group>";
+		};
+		5B6CA6912B540DB60095C28A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5B6CA67A2B540B420095C28A /* ChatListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5B6CA6922B540DBD0095C28A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B6CA68C2B540C4C0095C28A /* ChatListViewController.storyboard */,
+				5B6CA6992B5417690095C28A /* ChatRoomListCell.swift */,
+				5B6CA69A2B5417690095C28A /* ChatRoomListCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5B6CA6932B540DC40095C28A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5BC434E02B5BA24D00A20B4D /* Protocol */,
+				5B4D1F772B54B1E1004C7619 /* Manager */,
+				5B6CA6712B5400430095C28A /* Drivers */,
+				5BEAF3C32B53B27600C8BB6F /* Extension */,
+				5BEAF3C02B53B25100C8BB6F /* Model */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5B6CA6952B540DF70095C28A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5B6CA67C2B540B5E0095C28A /* ChatDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5B6CA6962B540E370095C28A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B6CA68A2B540C2D0095C28A /* ChatDetailViewController.storyboard */,
+				5B6CA6822B540BB20095C28A /* OtherChatMessageCell.swift */,
+				5B6CA6832B540BB20095C28A /* OtherChatMessageCell.xib */,
+				5B6CA6862B540BC70095C28A /* MeChatMessageCell.swift */,
+				5B6CA6872B540BC70095C28A /* MeChatMessageCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5B6CA6982B540E470095C28A /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				5BEAF3AF2B538EFF00C8BB6F /* Main.storyboard */,
+				5BEAF3A92B538EFF00C8BB6F /* AppDelegate.swift */,
+				5BEAF3AB2B538EFF00C8BB6F /* SceneDelegate.swift */,
+				5BEAF3AD2B538EFF00C8BB6F /* ViewController.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		5BC434E02B5BA24D00A20B4D /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				5BC434E12B5BA26800A20B4D /* CellBaseConfiguration.swift */,
+				5BC434E52B5BAE2F00A20B4D /* VCBaseConfiguration.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 		5BEAF39D2B538EFF00C8BB6F = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +221,32 @@
 		5BEAF3A82B538EFF00C8BB6F /* TravelTalk */ = {
 			isa = PBXGroup;
 			children = (
-				5BEAF3A92B538EFF00C8BB6F /* AppDelegate.swift */,
-				5BEAF3AB2B538EFF00C8BB6F /* SceneDelegate.swift */,
-				5BEAF3AD2B538EFF00C8BB6F /* ViewController.swift */,
-				5BEAF3AF2B538EFF00C8BB6F /* Main.storyboard */,
+				5B6CA6982B540E470095C28A /* Application */,
+				5B6CA68E2B540D840095C28A /* Feature */,
 				5BEAF3B22B538F0000C8BB6F /* Assets.xcassets */,
 				5BEAF3B42B538F0000C8BB6F /* LaunchScreen.storyboard */,
 				5BEAF3B72B538F0000C8BB6F /* Info.plist */,
 			);
 			path = TravelTalk;
+			sourceTree = "<group>";
+		};
+		5BEAF3C02B53B25100C8BB6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B6CA66A2B53FFA10095C28A /* User.swift */,
+				5B6CA66C2B53FFB40095C28A /* ChatRoom.swift */,
+				5B6CA66E2B53FFC20095C28A /* Chat.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5BEAF3C32B53B27600C8BB6F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5BEAF3C42B53B27E00C8BB6F /* Date+Extension.swift */,
+				5BC434E32B5BA97900A20B4D /* String+extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +265,9 @@
 			dependencies = (
 			);
 			name = TravelTalk;
+			packageProductDependencies = (
+				5BEAF3BE2B53B21600C8BB6F /* Kingfisher */,
+			);
 			productName = TravelTalk;
 			productReference = 5BEAF3A62B538EFF00C8BB6F /* TravelTalk.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +296,9 @@
 				Base,
 			);
 			mainGroup = 5BEAF39D2B538EFF00C8BB6F;
+			packageReferences = (
+				5BEAF3BD2B53B21600C8BB6F /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 5BEAF3A72B538EFF00C8BB6F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +313,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B6CA6892B540BC70095C28A /* MeChatMessageCell.xib in Resources */,
+				5B6CA68D2B540C4C0095C28A /* ChatListViewController.storyboard in Resources */,
+				5B6CA6852B540BB20095C28A /* OtherChatMessageCell.xib in Resources */,
 				5BEAF3B62B538F0000C8BB6F /* LaunchScreen.storyboard in Resources */,
 				5BEAF3B32B538F0000C8BB6F /* Assets.xcassets in Resources */,
+				5B6CA68B2B540C2D0095C28A /* ChatDetailViewController.storyboard in Resources */,
+				5B6CA69C2B5417690095C28A /* ChatRoomListCell.xib in Resources */,
 				5BEAF3B12B538EFF00C8BB6F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +331,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BC434E62B5BAE2F00A20B4D /* VCBaseConfiguration.swift in Sources */,
+				5B6CA6842B540BB20095C28A /* OtherChatMessageCell.swift in Sources */,
+				5B6CA67D2B540B5E0095C28A /* ChatDetailViewController.swift in Sources */,
+				5B6CA69B2B5417690095C28A /* ChatRoomListCell.swift in Sources */,
+				5BEAF3C52B53B27E00C8BB6F /* Date+Extension.swift in Sources */,
 				5BEAF3AE2B538EFF00C8BB6F /* ViewController.swift in Sources */,
+				5BC434E42B5BA97900A20B4D /* String+extension.swift in Sources */,
+				5B6CA66B2B53FFA10095C28A /* User.swift in Sources */,
+				5B4D1F7B2B54B20B004C7619 /* UserDefaultWrapper.swift in Sources */,
+				5B4D1F792B54B1F1004C7619 /* UserDefaultManager.swift in Sources */,
+				5B6CA6882B540BC70095C28A /* MeChatMessageCell.swift in Sources */,
+				5BC434E22B5BA26800A20B4D /* CellBaseConfiguration.swift in Sources */,
+				5B6CA67B2B540B420095C28A /* ChatListViewController.swift in Sources */,
+				5B6CA66D2B53FFB40095C28A /* ChatRoom.swift in Sources */,
+				5B6CA66F2B53FFC20095C28A /* Chat.swift in Sources */,
+				5B6CA6762B5400900095C28A /* MockChatData.swift in Sources */,
 				5BEAF3AA2B538EFF00C8BB6F /* AppDelegate.swift in Sources */,
 				5BEAF3AC2B538EFF00C8BB6F /* SceneDelegate.swift in Sources */,
 			);
@@ -363,6 +571,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5BEAF3BD2B53B21600C8BB6F /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5BEAF3BE2B53B21600C8BB6F /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5BEAF3BD2B53B21600C8BB6F /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5BEAF39E2B538EFF00C8BB6F /* Project object */;
 }
